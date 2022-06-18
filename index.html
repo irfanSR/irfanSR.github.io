@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Cuaca Irfan</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="container-bg">
+    <div id="logo"> 
+      <h2 id="titlejudul">Final Project Progate Backend API</h2>
+      <p id="descjudul">By : Irfan Suryo Radityo </p> 
+    </div> 
+    
+    <div class="card">
+      <div class="container-top">
+        <h2>Aplikasi Cuaca Irfan</h2>
+      </div>
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Masukkan Kota, Contoh : Jakarta">
+        <button>Cari</button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Kota belum dimasukkan</h2>
+        <h1 class="temp">- °C</h1>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+          <div class="description">Menunggu Data Kota</div>
+        </div>
+        <div class="humidity">Kelembaban: -</div>
+        <div class="wind">Kecepatan Angin: -</div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
